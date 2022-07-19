@@ -29,7 +29,7 @@ body {
 .card-main {
 	border: 0;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 	.card-main {
 		width: 800px;
 		margin: auto;
