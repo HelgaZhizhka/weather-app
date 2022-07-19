@@ -29,6 +29,12 @@ body {
 .card-main {
 	border: 0;
 }
+@media only screen and (max-width: 1200px) {
+	.card-main {
+		width: 800px;
+		margin: auto;
+	}
+}
 .card-main > .card-header {
 	padding: 24px 0;
 	background: none;
