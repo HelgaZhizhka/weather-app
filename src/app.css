@@ -1,0 +1,163 @@
+body {
+	font-family: "Source Code Pro", monospace;
+}
+.hide {
+	display: none !important;
+}
+.is-block {
+	display: block;
+}
+.search {
+	position: relative;
+	font-size: 24px;
+	line-height: 1;
+}
+.search input {
+	background: transparent;
+	border: 1px solid #183052;
+	color: #183052;
+	border-radius: 12px;
+	height: 48px;
+	padding: 0 32px 0 40px;
+}
+.search .icon {
+	position: absolute;
+	top: 10px;
+	left: 8px;
+	color: #183052;
+}
+.card-main {
+	border: 0;
+}
+.card-main > .card-header {
+	padding: 24px 0;
+	background: none;
+	border: 0;
+	color: #183052;
+	position: relative;
+}
+.card-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card-header .card-title {
+	margin: 0;
+}
+.card-header .card-title .icon {
+	margin-right: 10px;
+}
+.card-main > .card-body {
+	padding: 32px 24px;
+	margin-bottom: 32px;
+	background: linear-gradient(101.56deg, #4f7ffa 17.75%, #335fd1 84.8%);
+	box-shadow: 0 4px 10px rgba(59, 105, 222, 0.4);
+	border-radius: 12px;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+}
+.card-body .time {
+	font-size: 14px;
+	margin-bottom: 32px;
+}
+.card-body .degree {
+	display: inline-flex;
+	align-items: center;
+	font-size: 64px;
+	font-weight: 600;
+}
+.card-body .degree .unit .active {
+	color: #df721e;
+}
+.card-body .degree .unit {
+	margin-left: 10px;
+	font-size: 42px;
+}
+.card-body .status .value {
+	display: inline-flex;
+	align-items: center;
+	font-size: 22px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.card-body .status .icon {
+	position: relative;
+	top: -2px;
+}
+.card-body .city {
+	margin-bottom: 0;
+	text-transform: capitalize;
+	font-size: 48px;
+}
+.card-main > .card-footer {
+	background: none;
+	text-align: center;
+	color: #999;
+}
+.card-day {
+	padding: 12px 24px;
+	background: #fbfbfb;
+	border-radius: 4px;
+	text-align: center;
+}
+.card-day,
+.card-info {
+	line-height: 1;
+	border: 0;
+	color: #183052;
+}
+.card-day .day {
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.card-day .degree {
+	margin-bottom: 12px;
+	font-size: 18px;
+	font-weight: 600;
+}
+.card-day .degree span {
+	margin: 0 2px;
+}
+.card-day .degree .max {
+	color: rgb(184, 50, 97);
+}
+.card-day .degree .min {
+	color: #335fd1;
+}
+.card-day .icon {
+	width: 48px;
+	margin: auto;
+}
+.card-info .icon {
+	font-size: 42px;
+}
+.card-info {
+	background: #fafafa;
+	border-radius: 12px;
+}
+.card-info > .card-body {
+	padding: 24px;
+	font-size: 18px;
+}
+.card-info .icon {
+	float: left;
+	margin-right: 12px;
+}
+.card-info .value {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+.btn {
+	padding: 0 20px;
+	height: 48px;
+	line-height: 46px;
+	background: linear-gradient(101.56deg, #4f7ffa 17.75%, #335fd1 84.8%);
+	box-shadow: 0 4px 10px rgba(59, 105, 222, 0.4);
+	border-radius: 12px;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+}

@@ -1,0 +1,81 @@
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Weather App</title>
+        <meta charset="UTF-8" />
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet" />
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+        <link rel="stylesheet" href="src/app.css" />
+        <script src="https://kit.fontawesome.com/7dd16972e5.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="card card-main">
+                <div class="card-header">
+                    <span class="card-title">
+                        <i class="icon fa-solid fa-location-dot"></i><span class="title city">Sofia</span>
+                    </span>
+                    <form id="searchForm" class="search">
+                        <input id="searchInput" type="text" placeholder="Type city" autocomplete="off">
+                        <i class="icon fa-solid fa-magnifying-glass"></i>
+                    </form>
+                </div>
+                <div class="card-body">
+                    <span id="date" class="time is-block">Saturday, 20 june, 2022, 11:40</span>
+                    <span class="degree is-block">
+                        <span id="temp" class="value">20</span>
+                        
+                        <span class="unit">°C</span>
+                    </span>
+                    <span class="status is-block">
+                        <span class="value">
+                            <img id="iconWeather" class="icon hide" src="" alt="Cloudy">
+                            <span id="description">Cloudy</span>
+                        </span>
+                    </span>
+                    <h1 class="city">Sofia</h1>
+                </div>
+                <div class="section section_forecast" id="forecast">
+                    
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card card-info mb-4">
+                            <div class="card-body">
+                                <i class="icon fa-solid fa-water"></i>
+                                <span class="value"><span id="humidity">68</span>%</span>
+                                <span>precipitation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card card-info mb-4">
+                            <div class="card-body">
+                                <i class="icon fa-solid fa-wind"></i>
+                                <span class="value"><span id="wind">7</span>km/h</span>
+                                <span>wind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <small><a href="https://github.com/HelgaZhizhka/weather-app" target="_blank">open source code</a> by Olga Zhyzhka</small>
+                </div>
+            </div>
+        </div>
+
+        <script src="src/app.js"></script>
+    </body>
+
+    </html>
